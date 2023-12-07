@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.todo_main{
+    height: 200px;
+    width: 500px;
+    margin: 220px auto;
+    border-radius: 10px;
+    border: 1px solid gray;
+    /* box-shadow: 0 2px ; */
+    position: relative;
+}
+.enter{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.checkbox{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 30px;
+    top: 100px;
+}
+.h1tag{
+    position: absolute;
+    left: 70px;
+    top: 90px;
+    /* font-size: 20px; */
+}
+.delet{
+    position: absolute;
+    left: 150px;
+    top: 90px;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: rgb(247, 56, 56);
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+.delet:hover{
+    background-color: rgb(245, 37, 37);
+}
+.add{
+    position: absolute;
+    top: 22px;
+    background-color: #4d4df0;
+    font-size: 18px;
+    color: white;
+    border: none;
+    left: 300px;
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
+}
+.add:hover{
+    background-color: #2626f6;
+}
